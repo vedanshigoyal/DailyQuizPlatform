@@ -1,0 +1,15 @@
+[package]
+name = "DAILY-QUIZ-PLATFORM"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x37a4334504bb3d0a90cd643677f0032ad4008d69b9a9e513ed3b5f5a06fcec8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
